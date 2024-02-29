@@ -1,0 +1,53 @@
+body {
+    background: #dbaa8f;
+    font-family: Tahoma, Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(128, 68, 19);
+    font: 45px Papyrus, fantasy;
+    font-weight: 200;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    display: center;
+    color:rgba(99, 94, 10, 0.776);
+}
+table {
+    width: 50%;
+    border-style: groove;
+    display: block-inline;
+}
+
+thead {
+    text-align: center;
+    font: 20px papyrus, fantasy;
+}
+
+tbody {
+    display: center;
+}
+
+label {
+    display: block;
+    text-align: center;
+    font: copperplate, san-serif;
+    font-weight: 100;
+    color: rgb(128, 68, 19);
+}
+
+#submit-btn {
+    display: block-inline;
+    width: 600;
+    background: rgba(99, 94, 10, 0.776);
+    color: rgb(128, 68, 19);
+    border-color: rgb(128, 68, 19);
+    border-width: 50;
+}
+
+
+
+

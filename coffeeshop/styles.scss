@@ -1,0 +1,76 @@
+$color-primary: #d4a162de;
+$color-secondary: #5637DD;
+$color-pale: #CEC8ff;
+$color-mid: #901cad;
+$color-dark: #60106b;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17A2B8;
+
+$body-font: "open sans", sans-serif;
+$header-font: "lobster", cursive;
+
+body {
+    font-family: $body-font;
+    background-color: $color-primary;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $header-font;
+}
+
+h2 {
+    color: $color-primary;
+}
+
+header {
+    h2 {
+        color: $color-pale;
+    }
+}
+
+footer {
+    background-image: linear-gradient($color-pale, white);
+    padding: 20px 0;
+}
+
+header {
+    padding: 30px;
+    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: $color-mid;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.accordion-button {
+    background-color: #d3d3d3;
+}
+
+.carousel-caption {
+    background-color: $color-mid;
+    color: chartreuse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.carousel {
+    border: solid $color-secondary;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
